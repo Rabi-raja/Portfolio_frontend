@@ -5,7 +5,7 @@ import NeonGlowingEye3D from '../../components/GlowingEye'
 import ContactForm from '../../components/ContactForm'
 
 
-const Form = () => {
+const FormUS = () => {
   return (
     <div className='bg-black'>
 
@@ -31,4 +31,4 @@ const Form = () => {
   )
 }
 
-export default Form
+export default FormUS
