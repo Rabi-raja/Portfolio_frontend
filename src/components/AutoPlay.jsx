@@ -17,7 +17,7 @@ function AutoPlay() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    dots:true,
+    
     autoplaySpeed: 7000,
     cssEase: "linear"
   };
