@@ -5,7 +5,7 @@ import './App.css'
 import Home from './pages/Home/index.jsx'
 import MovingParticles from './components/MovingParticles.jsx'
 import AboutUs from './pages/Home/aboutUs/AboutUs.jsx';
-import Form from './pages/contactus/Form.jsx';
+import FormUs from './pages/contactus/FormUs.jsx'
 import Hire from './pages/hireus/Hire.jsx';
 import Header from './components/Header.jsx';
 
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path = '/' element = {<Home />} /> 
         <Route path = '/about-us' element = {<AboutUs />} /> 
-         <Route path = '/contact-us' element = {<Form />} /> 
+         <Route path = '/contact-us' element = {<FormUs />} /> 
          <Route path = '/hire-us' element = {<Hire />} />      
         
       </Routes>
