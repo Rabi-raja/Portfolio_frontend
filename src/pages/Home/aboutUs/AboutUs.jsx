@@ -14,7 +14,7 @@ import RotatingCubeCanvas from '../../../components/Cube.jsx';
 import Process from '../../../components/Process.jsx';
 import HappyClients from '../../../components/HappyClients.jsx';
 import Footer from '../../../components/Footer.jsx';
-import Contact from '../../../components/contact.jsx';
+import Contact from '../../../components/Contact.jsx';
 import Prefer from '../../../components/Prefer.jsx';
 import Certificate from '../../../components/Certificate.jsx';
 
