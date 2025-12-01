@@ -5,7 +5,7 @@ import './App.css'
 import Home from './pages/Home/index.jsx'
 import MovingParticles from './components/MovingParticles.jsx'
 import AboutUs from './pages/Home/aboutUs/AboutUs.jsx';
-import Form from './pages/contactus/form.jsx';
+import Form from './pages/contactus/Form.jsx';
 import Hire from './pages/hireus/Hire.jsx';
 import Header from './components/Header.jsx';
 
