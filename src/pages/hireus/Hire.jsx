@@ -7,7 +7,7 @@ import WhyHire from '../../components/WhyHire.jsx'
 import Price from '../../components/Price.jsx'
 import Process from '../../components/Process.jsx'
 import Chooseus from '../../components/Chooseus.jsx'
-import Contact from '../../components/contact.jsx'
+import Contact from '../../components/Contact.jsx'
 
 
 const Hire = () => {
