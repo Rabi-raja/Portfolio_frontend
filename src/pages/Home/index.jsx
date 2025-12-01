@@ -16,7 +16,7 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import Testimonials from '../../components/Testimonials.jsx'
 import HappyClients from '../../components/HappyClients.jsx'
-import Contact from '../../components/contact.jsx';
+import Contact from '../../components/Contact.jsx';
 import Footer from '../../components/Footer.jsx';
 import HireSection from '../../components/HireSection.jsx';
 import HireHome from '../../components/HireHome.jsx';
