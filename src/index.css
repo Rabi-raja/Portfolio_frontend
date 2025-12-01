@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+@import "tailwindcss";
+
+*
+{
+
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.rainbowText {
+  background: linear-gradient(270deg, #22d3ee, rgb(211, 11, 44), #a855f7, #ec4899, #facc15, #5ae0f4);
+  background-size: 1200% 1200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rainbow 8s ease infinite;
+}
+
+@keyframes rainbow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.neonButton {
+  background: #0f172a; /* dark background */
+  color: #22d3ee; /* neon text */
+  padding: 0.75rem 2rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  border: 2px solid #22d3ee;
+  box-shadow: 0 0 40px #22d3ee, 0 0 40px #22d3ee;
+  transition: all 0.3s ease;
+}
+
+.neonButton:hover {
+  box-shadow: 0 0 20px #22d3ee, 0 0 40px rgb(230, 68, 95), 0 0 60px #a855f7;
+  transform: scale(1.1);
+}
+
+.cardGlow
+{
+  background:linear-gradient(270deg, #0ff, #0af, #0ff, pink);
+  background-size: 1000% 1000%;
+  animation:gradientShift 10s ease infinite;
+}
+/* @keyframes gradientShift {
+  
+0%
+{
+  background-position: 0% 50%;
+}
+50%
+{
+  background-position: 100% 50%;
+}
+100%
+{
+  background-position: 0% 50%;
+}
+
+}
+@keyframes spin-slow {
+  0%
+  {
+    transform: rotate(0deg);
+
+  }
+ 100% { transform: rotate(360deg); }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 60s linear infinite;
+} */
+ @keyframes waveMotion {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-waveMotion {
+  animation: waveMotion 5s ease-in-out infinite;
+}
+
+
+.glow-text
+{
+  background: linear-gradient(270deg, #22d3ee, rgb(211, 11, 44), #a855f7, #ec4899, #facc15, #5ae0f4);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientFlow 6s ease infinite;
+  text-shadow: 0 0 20px rgba(168, 85, 247, 0.6),0 0 40px rgba(131, 223, 223, 0.3), 0 0 60px rgba(rgba(255, 105, 180, 0.7));
+}
+
+@keyframes gradientFlow {
+  0%
+  {
+    background-position: 0% 50%;
+  }
+  50%
+  {
+    background-position: 100% 50%;
+  }
+  100%{
+background-position: 0% 50%;
+  }
+}
+.glow-text2
+{
+  background: linear-gradient(270deg, #22d3ee,  #a855f7, #ec4899);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientFlow2 6s ease infinite;
+  text-shadow: 0 0 20px rgba(168, 85, 247, 0.6),0 0 40px rgba(131, 223, 223, 0.3), 0 0 60px rgba(rgba(255, 105, 180, 0.7));
+}
+
+@keyframes gradientFlow2 {
+  0%
+  {
+    background-position: 0% 40%;
+  }
+  40%
+  {
+    background-position: 40% 70%;
+  }
+  70%{
+background-position: 70% 100%;
+  }
+  100%
+  {
+background-position: 100% 50%;
+  }
+}
+.about {
+  
+  
+  border-radius: 50%;
+  font-weight: bold;
+  border: 2px solid #22d3ee;
+  box-shadow: 0 0 40px #22d3ee, 0 0 40px #22d3ee, 0 0 80px #db2777;
+  transition: all 0.3s ease;
+}
+
+.about:hover {
+  box-shadow: 0 0 20px #22d3ee, 0 0 40px rgb(230, 68, 95), 0 0 60px #a855f7;
+  transform: scale(1.1);
+} 
+
+@keyframes icons
+
+
+{
+
+  0%, 100%
+  {
+    transform: rotate(0);
+  }
+  50%
+  {
+    transform: rotateY(180deg) scale(1.5);;
+  }
+}
+.icons:hover
+{
+  animation: icons 0.5s ease-in-out infinite;
+  
+}
+
+@keyframes blink
+{
+  0% ,100%
+  {
+    transform: scale(1);
+  }
+  50%
+  {
+    transform: scale(1.1);
+  }
+}
+
+.zoom-zoom
+{
+  animation: blink 2s infinite ease-in-out;
+}
+@keyframes animate{
+  0%
+  {
+    transform: rotate(-15deg);
+  }
+
+   25%
+  {
+    transform: rotate(-7deg)
+  }  
+  50%
+  {
+    transform: rotate(15deg)
+  }
+  75%
+  {
+    transform: rotate(7deg);
+  }
+  100%
+  {
+    transform: rotate(-15deg)
+  } 
+} 
+
+.rotation
+{
+ animation: none;
+}
+.rotation:hover
+{
+ animation: animate 5s ease-in-out infinite;
+}
+
+.borderthree
+{
+  border-width: 3px;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to right,
+    cyan 0%,
+    cyan 33.33%,
+    purple 33.33%,
+    purple 66.66%,
+    rgb(220, 131, 146) 66.66%,
+    rgb(220, 131, 146) 100%
+
+  );
+}
+
+
+.scaling
+{
+  transform: scale(1);
+}
+.scaling:hover
+{
+  transform: scale(1.25);
+}
