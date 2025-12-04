@@ -13,7 +13,7 @@ const validationSchema = Yup.object().shape({
 
 const ContactForm = () => {
   return (
-    <div className='container border-2 border-cyan-500 rounded-2xl flex flex-col justify-between items-center gap-5 m-5 p-5 lg:w-[35vw] md:w-fit sm:w-fit'>
+    <div className='container border-2 border-cyan-500 rounded-2xl flex flex-col justify-between items-center gap-5 m-5 p-5 w-auto lg:w-[35vw] md:w-fit mx-auto '>
 <Formik
                 initialValues={{ first_name: '', email: '', phone: '', subject: '', message:'' }}
                 validationSchema={validationSchema}

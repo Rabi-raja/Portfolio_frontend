@@ -8,7 +8,7 @@ const HireHome = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-5 my-10 p-10 bg-gray-800' style = {{boxShadow: '0 0 40px rgba(8,145,178,1)'}}>
         <h1 className='text-cyan-500 text-[2.5rem] text-center font-bold'>Ready to Build Something Amazing?</h1>
-        <p className='text-white text-[1.5rem] text-center'>Partner with StackNexa to bring your vision to life with <span className='text-cyan-500 text-[2rem] font-bold'>Expert Developers</span> and cutting-edge solutions.</p>
+        <p className='text-white text-[1.5rem] text-center'>Partner with LORDS IT SERVICES to bring your vision to life with <span className='text-cyan-500 text-[2rem] font-bold'>Expert Developers</span> and cutting-edge solutions.</p>
         <div className='flex flex-col justify-center items-center gap-8 md:flex md:flex-col lg:flex lg:flex-row'>
 <div className='flex flex-col justify-between items-center gap-5 w-[20vw] text-center'>
 <span className='text-cyan-500 text-[3rem]'><FaRegUser /></span>

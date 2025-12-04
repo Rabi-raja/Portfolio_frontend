@@ -26,7 +26,7 @@ const Footer = () => (
 
       {/* Logo */}
       <div className="flex-shrink-0">
-        <img className="w-48 md:w-64" src={logo} alt="StackNexa" />
+        <img className="w-48 md:w-64" src={logo} alt="LORDS IT SERVICES" />
       </div>
 
       {/* Get in Touch */}
@@ -43,7 +43,7 @@ const Footer = () => (
           </div>
           <div>
             <p>CALL ME:</p>
-            <p className="underline cursor-pointer">+92 321 5664603</p>
+            <p className="underline cursor-pointer">+92 331 5594357</p>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ const Footer = () => (
 
       
       <p className="text-center text-gray-300 text-sm lg:text-base">
-        &copy; {new Date().getFullYear()} StackNexa. All rights reserved.
+        &copy; {new Date().getFullYear()} LORDS IT SERVICES (PRIVATE) LIMITED. All rights reserved.
       </p>
     </div>
   </div>

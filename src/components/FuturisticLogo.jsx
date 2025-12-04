@@ -76,9 +76,9 @@ export default function HolographicStackedCubesLarge() {
         <ambientLight intensity={0.8} />
         <pointLight position={[100, 100, 100]} intensity={2} />
 
-        <Cube offset={0} size={14} thickness={8} />
-        <Cube offset={2} size={18} thickness={9} />
-        <Cube offset={4} size={22} thickness={10} />
+        <Cube offset={0} size={10} thickness={3} />
+        <Cube offset={2} size={14} thickness={4} />
+        <Cube offset={4} size={18} thickness={5} />
       </Canvas>
     </div>
   );

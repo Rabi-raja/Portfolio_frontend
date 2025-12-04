@@ -73,7 +73,7 @@ const Price = () => {
     <Link to='/contact-us'>Contact Us</Link>
 </div>
 </div>
-<div className='sm:w-full md:w-[40vw] lg:w-[20vw] bg-gray-800 text-white p-5 rounded-2xl flex flex-col items-start flex-wrap shadow-[0_0_20px_rgba(14,116,144,0.8),0_0_20px_rgba(168,85,247,1),0_0_60px_rgba(219,39,119,1)] rotation'>
+<div className='w-auto md:w-[40vw] lg:w-[20vw] bg-gray-800 text-white p-5 rounded-2xl flex flex-col items-start flex-wrap shadow-[0_0_20px_rgba(14,116,144,0.8),0_0_20px_rgba(168,85,247,1),0_0_60px_rgba(219,39,119,1)] rotation mx-auto'>
 <h1 className='text-[2rem] font-bold'>Custom Projects</h1>
 <p className='px-2 '>(Tailored development for your unique needs)</p>
 <p className='p-3 text-[1.25rem] text-cyan-500 font-bold'>Price: Contact for quote</p>

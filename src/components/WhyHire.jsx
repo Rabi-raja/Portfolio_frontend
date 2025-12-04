@@ -10,11 +10,11 @@ const WhyHire = () => {
     <div>
         
     <div className='flex flex-col justify-center items-center lg:flex lg:flex-row gap-7 my-7'>
-<div className='w-full md:w-[50vw] lg:w-[25vw] border-2 border-cyan-500 h-auto  text-white flex flex-col m-5  p-5'  style = {{boxShadow: ' 0 0 40px rgba(6, 182, 212, 1)'}}>
+<div className='w-fit md:w-[50vw] lg:w-[25vw] border-2 border-cyan-500 h-auto  text-white flex flex-col m-5  p-5'  style = {{boxShadow: ' 0 0 40px rgba(6, 182, 212, 1)'}}>
 <div className='flex items-center gap-4 text-[1rem] my-4 '>
 
 <span className='text-blue-500 text-[2rem]'><MdLayers /></span>
-    <span className='text-xl'>Full Stack Development(React, Node.js, Express, MongoDB).</span>
+    <span className='text-xl'>MERN-Stack Development(React, Node.js, Express, MongoDB).</span>
     </div>
     
     <div className='flex items-center gap-4 my-4'>
@@ -37,7 +37,7 @@ const WhyHire = () => {
    
 </div>
 <div>
-<div className=' flex flex-col w-full md:w-[50vw] lg:w-[40vw] text-white border-2 border-cyan-500 h-[50vh]'  style = {{boxShadow: ' 0 0 40px rgba(6, 182, 212, 1)'}}>
+<div className=' flex flex-col w-[90vw] md:w-[90vw] lg:w-[40vw] text-white border-2 border-cyan-500 h-auto'  style = {{boxShadow: ' 0 0 40px rgba(6, 182, 212, 1)'}}>
 
 <h1 className='glow-text text-3xl  p-5 font-bold'>Why Hire Us</h1>
 <p className='text-[1.10rem] p-5'>You should hire us because we combine technical expertise with a user-focused approach to deliver complete, efficient solutions.</p>

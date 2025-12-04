@@ -23,7 +23,7 @@ const Certificate = () => {
       </div>
 
       <p className='text-[1.35rem] text-white m-3'>
-        <span className='font-bold'>Lords IT Services (Private) Limited</span> is officially
+        <span className='font-bold'>LORDS IT SERVICES (PRIVATE) LIMITED</span> is officially
         incorporated under the Companies Act, 2017 (XIX of 2017) in Pakistan.
       </p>
       <ul className='list-disc list-inside text-gray-400'>
@@ -36,8 +36,8 @@ const Certificate = () => {
         </li>
       </ul>
       <p className='text-white m-3 text-[1.35rem]'>
-        We are proud to be a legally registered company committed to delivering professional full
-        stack web development services with integrity and trust.
+        We are proud to be a legally registered company committed to delivering professional MERN- Stack
+ development services with integrity and trust.
       </p>
       <p className='text-white m-3 text-[1.35rem]'>
         For your reference, the{' '}

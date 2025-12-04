@@ -12,7 +12,7 @@ const FormUS = () => {
         <Header />
         <div>
             <h1 className='text-6xl text-center glow-text m-5 mb-5 p-3'>Let's Work Together</h1>
-            <p className='text-2xl text-cyan-500 text-center'>Have a project in mind? Get in touch and let’s make it happen together.</p>
+            <p className='text-xl md:text-2xl lg:text-2xl  text-white text-center'>Have a project in mind? Get in touch and let’s make it happen together.</p>
         </div>
         <div className='flex bg-transparent justify-around items-center m-5 flex-wrap'>
             

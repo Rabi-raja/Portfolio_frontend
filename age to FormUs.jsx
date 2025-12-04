@@ -1,0 +1,30 @@
+[33mcommit c28573f558a44007642930b1bba34416f49b788d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Rabi Raja <rabi.raja2024@example.com>
+Date:   Mon Dec 1 17:27:06 2025 +0500
+
+    Rename Form.jsx to FormUs.jsx
+
+[1mdiff --git a/src/pages/contactus/Form.jsx b/src/pages/contactus/FormUs.jsx[m
+[1msimilarity index 95%[m
+[1mrename from src/pages/contactus/Form.jsx[m
+[1mrename to src/pages/contactus/FormUs.jsx[m
+[1mindex b9b76b3..cda7d3d 100644[m
+[1m--- a/src/pages/contactus/Form.jsx[m
+[1m+++ b/src/pages/contactus/FormUs.jsx[m
+[36m@@ -5,7 +5,7 @@[m [mimport NeonGlowingEye3D from '../../components/GlowingEye'[m
+ import ContactForm from '../../components/ContactForm'[m
+ [m
+ [m
+[31m-const Form = () => {[m
+[32m+[m[32mconst FormUS = () => {[m
+   return ([m
+     <div className='bg-black'>[m
+ [m
+[36m@@ -31,4 +31,4 @@[m [mconst Form = () => {[m
+   )[m
+ }[m
+ [m
+[31m-export default Form[m
+\ No newline at end of file[m
+[32m+[m[32mexport default FormUS[m
+\ No newline at end of file[m
