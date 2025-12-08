@@ -1,6 +1,9 @@
+import axios from 'axios'
 import React from 'react'
 import { Formik, Field } from 'formik';
 import * as Yup from 'yup';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const validationSchema = Yup.object().shape({
     first_name: Yup.string().required('Name is Required').min(2, 'Name must be at least 2 characters').max(50, 'Name must be less than 50 characters').matches(/^[aA-zZ\s]+$/, 'Only alphabets are allowed for this field '),
@@ -17,11 +20,29 @@ const ContactForm = () => {
 <Formik
                 initialValues={{ first_name: '', email: '', phone: '', subject: '', message:'' }}
                 validationSchema={validationSchema}
-                onSubmit={(values, { setSubmitting }) => {
-                    setTimeout(() => {
-                        alert(JSON.stringify(values, null, 2));
-                        setSubmitting(false);
-                    }, 400);
+                onSubmit={async (values, { setSubmitting, resetForm }) => {
+try{
+    const response = await axios.post(`http://localhost:8000/api/v1/client/create-client`, values)
+   toast.success(response.data.message ||"Message sent Successfully!")
+   resetForm()
+}
+catch(error)
+{
+    if(error.response)
+    {
+        toast.error(error.response.data.error || "Failed to send message")
+    }
+    else
+    {
+        toast.error("Network error: Unable to send message")
+    }
+   
+}
+ finally{
+    setSubmitting(false)
+        
+    }
+
                 }}
             >
                 {({
@@ -132,6 +153,7 @@ const ContactForm = () => {
                 
              )}
             </Formik>
+             <ToastContainer />
         </div>
 
     )

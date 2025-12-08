@@ -90,7 +90,7 @@ function RotatingEyeWithCircles() {
       <mesh ref={pinkCircleRef} castShadow receiveShadow>
         <torusGeometry args={[70, 1.5, 64, 100]} />
         <meshStandardMaterial
-          color="#FFAA00c"
+          color="#FFAA00"
           emissive="#FFAA00"
           emissiveIntensity={2.5}
           roughness={0}

@@ -4,6 +4,7 @@ import { TfiAlignJustify } from "react-icons/tfi";
 import { ImCross } from "react-icons/im";
 import { Link } from 'react-router-dom';
 import { FaAnglesRight } from "react-icons/fa6";
+import { FaRegUser } from "react-icons/fa";
 
 const Header = () => {
   const [hamburger, setHamburger] = useState(false);
@@ -23,14 +24,17 @@ const Header = () => {
         </ul>
       </div>
 
-      {/* Hire Us button (desktop only) */}
+      
       <div className='hidden lg:flex text-[18px] font-bold justify-center items-center gap-3 w-40 border-transparent rounded-full bg-gray-700 p-3 text-cyan-500'>
         <Link to='/hire-us' className='cursor-pointer text-white'>Hire Us</Link>
         <FaAnglesRight />
       </div>
 
-      {/* Mobile hamburger menu */}
-      <div className='text-white text-4xl flex items-center block md:hidden'>
+      <div className='hidden lg:flex gap-4 items-center justify-center text-[18px] '>
+        <span className=' text-2xl bg-gray-100 rounded-[50%] p-2 '><FaRegUser /></span>
+        <Link to='/login-page' className='cursor-pointer text-gray-100'>Admin</Link>
+      </div>
+      <div className='text-white text-4xl flex items-center md:hidden'>
         {hamburger ? (
           <ImCross className='relative cursor-pointer' onClick={() => setHamburger(false)} />
         ) : (
@@ -57,8 +61,9 @@ const Header = () => {
             <li className='p-3 rounded-2xl text-2xl'>
               <Link to='/contact-us' onClick={() => setHamburger(false)}>Contact</Link>
             </li>
+           
             <li className='p-3 rounded-2xl text-2xl'>
-              <Link to='/hire-us' onClick={() => setHamburger(false)}>Hire Us</Link>
+              <Link to='/login-page' onClick={() => setHamburger(false)}>Admin Dashboard</Link>
             </li>
           </ul>
         )}
