@@ -17,7 +17,7 @@ const LoginPage = () => {
     setError('')
     try {
       const res = await axios.post('https://portfoliobackend-production-d54c.up.railway.app/api/v1/user/login-user', { email, password })
-
+console.log('Login response:', res.data);
       if (res.data.token) {
         login(res.data.token)
         navigate('/admin')
