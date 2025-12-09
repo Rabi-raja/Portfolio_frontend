@@ -10,7 +10,10 @@ const AdminPage = () => {
   const [loading, setLoading] = useState(true)
   
   useEffect(() => {
-    const socket = io('http://localhost:8000')
+    const socket = io('https://portfoliobackend-production-d54c.up.railway.app', {
+  transports: ['websocket'],
+})
+
     socket.on('connect', () => {
       console.log("Connected to socket server with id", socket.id)
     })
@@ -23,11 +26,12 @@ const AdminPage = () => {
     const fetchMessages = async () => {
       const token = localStorage.getItem('token')
       try {
-        const res = await axios.get('http://localhost:8000/api/v1/client/get-client', {
-          headers: {
-            Authorization: `Bearer ${token}`
-          }
-        })
+        const res = await axios.get('https://portfoliobackend-production-d54c.up.railway.app/api/v1/client/get-client', {
+  headers: {
+    Authorization: `Bearer ${token}`
+  }
+})
+
         setMsg(res.data.data)
         console.log('API response:', res.data)
       } catch (err) {
@@ -46,7 +50,7 @@ const AdminPage = () => {
   const deleteMsg = async (id) => {
     const token = localStorage.getItem('token')
     try {
-      await axios.delete(`http://localhost:8000/api/v1/client/delete-clientmsg/${id}`, {
+      await axios.delete(`https://portfoliobackend-production-d54c.up.railway.app/api/v1/client/delete-clientmsg/${id}`, {
         headers: {
           Authorization: `Bearer ${token}`
         }

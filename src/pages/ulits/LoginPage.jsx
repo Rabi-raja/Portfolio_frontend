@@ -16,7 +16,7 @@ const LoginPage = () => {
     e.preventDefault()
     setError('')
     try {
-      const res = await axios.post('http://localhost:8000/api/v1/user/login-user', { email, password })
+      const res = await axios.post('https://portfoliobackend-production-d54c.up.railway.app/api/v1/user/login-user', { email, password })
 
       if (res.data.token) {
         login(res.data.token)

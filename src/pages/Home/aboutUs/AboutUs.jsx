@@ -16,7 +16,7 @@ import HappyClients from '../../../components/HappyClients.jsx';
 import Footer from '../../../components/Footer.jsx';
 import Contact from '../../../components/Contact.jsx';
 import Prefer from '../../../components/Prefer.jsx';
-import Certificate from '../../../components/Certificate.jsx';
+// import Certificate from '../../../components/Certificate.jsx';
 
 
 const AboutUs = () => {
@@ -53,7 +53,7 @@ const AboutUs = () => {
 
 <Qualities quality={quality} />
 <div className='my-5'>
-  <Certificate />
+  {/* <Certificate /> */}
 </div>
 <div className='my-5'>
   <Process />

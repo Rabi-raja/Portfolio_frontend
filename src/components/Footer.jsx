@@ -2,6 +2,7 @@ import React from 'react'
 import Wave from 'react-wavify'
 import logo from '../assets/logo.png'
 import { IoMdArrowRoundForward } from "react-icons/io";
+import Certificate from './Certificate';
 
 const Footer = () => (
   <div className="relative bg-gray-900 text-white pt-10 pb-10 ">
@@ -27,25 +28,24 @@ const Footer = () => (
       {/* Logo */}
       <div className="flex-shrink-0">
         <img className="w-48 md:w-64" src={logo} alt="LORDS IT SERVICES" />
+        <Certificate />
       </div>
 
-      {/* Get in Touch */}
+   
       <div className="flex flex-col items-center md:items-start gap-6 text-center md:text-left">
         <div className="flex items-center gap-3">
           <h1 className="text-3xl md:text-4xl font-bold">Get in touch</h1>
-          <IoMdArrowRoundForward className="text-purple-700 text-4xl" />
+          <IoMdArrowRoundForward className="text-cyan-950 text-4xl" />
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-8 text-lg font-medium">
-          <div>
-            <p>EMAIL ME:</p>
-            <p className="underline cursor-pointer">lordsitservices@gmail.com</p>
-          </div>
-          <div>
-            <p>CALL ME:</p>
-            <p className="underline cursor-pointer">+92 331 5594357</p>
-          </div>
-        </div>
+        <div className="flex flex-col gap-8 text-[1rem] font-medium">
+  <address>
+  <p>Email: <a href="mailto:lordsitservices@gmail.com">lordsitservices@gmail.com</a></p>
+  <p>Phone: <a href="tel:+923315594357">+92 331 5594357</a></p>
+  <p>Address: Office # 1241,The gate Mall, Faisal town (F-18) Islamabad</p>
+</address>
+
+</div>
       </div>
     </div>
 

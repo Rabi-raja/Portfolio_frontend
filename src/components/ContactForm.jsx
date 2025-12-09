@@ -22,7 +22,7 @@ const ContactForm = () => {
                 validationSchema={validationSchema}
                 onSubmit={async (values, { setSubmitting, resetForm }) => {
 try{
-    const response = await axios.post(`http://localhost:8000/api/v1/client/create-client`, values)
+    const response = await axios.post(`https://portfoliobackend-production-d54c.up.railway.app/api/v1/client/create-client`, values)
    toast.success(response.data.message ||"Message sent Successfully!")
    resetForm()
 }

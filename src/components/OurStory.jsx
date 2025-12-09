@@ -1,16 +1,25 @@
-import React from 'react'
-
+import React from 'react';
+import { AiFillSafetyCertificate } from "react-icons/ai";
 
 const OurStory = () => {
   return (
-    <div className='flex flex-col items-center gap-5'>
-<h1 className='text-white text-5xl mt-20 font-extrabold '>Who We Are</h1>
-<p className='text-white text-xl font-sans p-4'>We are architects of the digital world, blending creativity with cutting-edge technology to deliver seamless and powerful web solutions. From intuitive user interfaces to scalable backend architectures, we master every layer of the stack to transform ideas into impactful realities. Our team thrives on innovation, constantly exploring new tools and methodologies to stay ahead in an ever-evolving digital landscape.
-<br></br>
-<br></br>
-Driven by a passion for problem-solving and a commitment to quality, we don’t just build websites—we engineer experiences that connect people and businesses globally. Our story is one of relentless curiosity, collaboration, and a shared vision to shape the future of the web, one line of code at a time.</p>
+    <div className="max-w-4xl mx-auto p-8  rounded-2xl shadow-lg text-white">
+      <h1 className="text-5xl font-extrabold mb-8 text-center">Who We Are</h1>
+      
+      <div className="flex items-start gap-6">
+        <AiFillSafetyCertificate className="text-yellow-500 text-7xl drop-shadow-lg mt-1" />
+        <p className="text-[1rem] leading-relaxed font-sans">
+          We specialize in creating digital solutions that combine creativity with advanced technology.  
+          Our expertise includes designing intuitive user interfaces and building scalable backend systems, delivering full-stack web applications tailored to diverse needs.
+          <br /><br />
+          LORDS IT SERVICES (PRIVATE) LIMITED is duly incorporated under the Companies Act, 2017 of Pakistan (Corporate Unique Identification No.: 0237347, incorporated on 17th August 2023).  
+          Registered with the Securities and Exchange Commission of Pakistan (SECP), we provide MERN-stack development services fully compliant with applicable laws and industry standards.
+          <br /><br />
+          Our approach centers on quality, innovation, and collaboration to build effective web experiences that seamlessly connect users and businesses.
+        </p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default OurStory
+export default OurStory;

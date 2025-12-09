@@ -10,7 +10,7 @@ import AboutUs from './pages/Home/aboutUs/AboutUs.jsx';
 import FormUs from './pages/contactus/FormUs.jsx'
 import Hire from './pages/hireus/Hire.jsx';
 import Header from './components/Header.jsx';
-import ProtectedRoutes from './components/ProtectedRoutes.jsx';
+import ProtectedRoutes from './components/ProtectedRoutes.jsx'
 import AdminPage from './pages/admin/AdminPage.jsx'
 import { AuthProvider } from './assets/context/AuthContext.jsx';
 import LoginPage from './pages/ulits/LoginPage.jsx'
