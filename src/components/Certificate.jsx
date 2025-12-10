@@ -8,7 +8,7 @@ const Certificate = () => {
           href='/CertificateInc.pdf'
           target='_blank'
           rel='noopener noreferrer'
-          className=' text-cyan-950 shadow-cyan-400 underline text-[1rem] font-semibold cursor-pointer'
+          className=' text-white shadow-cyan-400 underline text-[1rem] font-semibold cursor-pointer'
         >
           Company Registration Certificate (PDF)
         </a>

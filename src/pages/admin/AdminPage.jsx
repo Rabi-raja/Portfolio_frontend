@@ -87,6 +87,7 @@ const AdminPage = () => {
                   <th className="text-left p-2 sm:p-3 border-b border-gray-600 text-sm sm:text-lg font-semibold hidden sm:table-cell">Phone</th>
                   <th className="text-left p-2 sm:p-3 border-b border-gray-600 text-sm sm:text-lg font-semibold hidden md:table-cell">Subject</th>
                   <th className="text-left p-2 sm:p-3 border-b border-gray-600 text-sm sm:text-lg font-semibold max-w-xs truncate">Message</th>
+                                    <th className="text-left p-2 sm:p-3 border-b border-gray-600 text-sm sm:text-lg font-semibold max-w-xs truncate">Date</th>
                   <th className="text-left p-2 sm:p-3 border-b border-gray-600 text-sm sm:text-lg font-semibold text-red-500">Action</th>
                 </tr>
               </thead>
