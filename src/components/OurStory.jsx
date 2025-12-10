@@ -3,7 +3,7 @@ import { AiFillSafetyCertificate } from "react-icons/ai";
 
 const OurStory = () => {
   return (
-    <div className="max-w-5xl mx-auto px-6 py-12 bg-gradient-to-br from-gray-900 to-gray-800 rounded-3xl shadow-2xl">
+    <div className="max-w-5xl mx-auto px-6 py-12  rounded-3xl shadow-2xl">
       
       
       <h1 className="text-5xl font-extrabold text-center text-white tracking-wide mb-12">
@@ -18,7 +18,7 @@ const OurStory = () => {
         </div>
 
         
-        <p className="text-[1.05rem] text-gray-200 leading-relaxed font-sans">
+        <p className="text-[1.20rem] text-gray-200 leading-relaxed font-sans">
           We craft modern digital experiences that merge creativity with technical precision. 
           Our focus is on building intuitive user interfaces, scalable backend systems,
           and full-stack MERN applications that deliver real value.
