@@ -2,7 +2,7 @@ import React from 'react'
 import { RiWhatsappFill } from "react-icons/ri";
 
 const Whatsapp = () => {
-    const phonenumber = "923215664603"
+    const phonenumber = "03315594357"
 
     const whatsappUrl = `https://wa.me/${phonenumber}`
   return (
