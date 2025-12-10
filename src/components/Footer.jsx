@@ -15,7 +15,7 @@ const Footer = () => (
         style={{ width: '100%', height: '100%' }}
         options={{
           height: 8,
-          amplitude: 40,
+          amplitude: 70,
           speed: 0.15,
           points: 3,
         }}

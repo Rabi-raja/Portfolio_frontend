@@ -102,7 +102,7 @@ const AdminPage = () => {
                       <td className="p-2 sm:p-3 border-b border-gray-700 hidden sm:table-cell text-sm sm:text-base">{items.phone}</td>
                       <td className="p-2 sm:p-3 border-b border-gray-700 hidden md:table-cell text-sm sm:text-base">{items.subject}</td>
                       <td className="p-2 sm:p-3 border-b border-gray-700 max-w-xs truncate text-sm sm:text-base">{items.message}</td>
-                      <td className="p-2 sm:p-3 border-b border-gray-700 max-w-xs truncate text-sm sm:text-base">{new Date(items.createdAt).toLocalString()}</td>
+                      <td className="p-2 sm:p-3 border-b border-gray-700 max-w-xs truncate text-sm sm:text-base">{new Date(items.createdAt).toLocaleString()}</td>
                       
 
                       <td className="p-2 sm:p-3 border-b border-gray-700 text-sm sm:text-base">
