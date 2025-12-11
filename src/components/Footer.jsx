@@ -28,7 +28,7 @@ const Footer = () => (
       {/* Logo */}
       <div className="flex-shrink-0">
         <img className="w-48 md:w-64" src={logo} alt="LORDS IT SERVICES" />
-        <Certificate />
+      
       </div>
 
    
