@@ -71,12 +71,14 @@ const Home = () => {
   <h1 className='text-4xl font-bold py-6 rainbowText sm:text-xl text-center lg:text-left md:text-4xl lg:text-5xl'>ABOUT US</h1>
   <h2 className='text-3xl font-medium rainbowText py-4 text-center lg:text-left'>The People Behind the Code</h2>
 
-  <p className='text-xl py-6 text-center lg:text-left'>We’re a team of passionate MERN-Stack Developers turning ideas into sleek, scalable digital experiences. At LORDS IT SERVICES, innovation meets precision — one line of code at a time.</p>
   <Link
   to='/about-us'
-  className='flex items-start gap-2 w-[250px] sm:w-[300px] md:w-[15vw] lg:w-[18vw] h-20 py-1 text-2xl rounded-2xl my-7 neonButton mx-auto'
+  className='flex justify-center items-center 
+             gap-3 px-6 w-[250px] sm:w-[300px] md:w-[15vw] lg:w-[18vw]
+             h-20 text-2xl rounded-2xl my-7 neonButton'
 >
-  Discover us <IoMdArrowRoundForward />
+  <span>Discover us</span>
+  <IoMdArrowRoundForward />
 </Link>
 
 </div>
