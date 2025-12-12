@@ -43,7 +43,15 @@ const Prefer = () => {
         </div>
         
         </div>
-        <Link to='/hire-us'className='neonButton w-[250px] sm:w-[300px] md:w-[15vw] lg:w-[18vw] text-center h-20 mx-auto p-4 text-[1.5rem] text-white rounded-2xl font-bold my-5   '>Hire Our Experts</Link>
+        <Link
+  to='/hire-us'
+  className='neonButton w-[250px] sm:w-[300px] md:w-[15vw] lg:w-[18vw]
+             h-20 mx-auto px-6 text-[1.5rem] text-white rounded-2xl
+             font-bold my-5 flex justify-center items-center text-center'
+>
+  Hire Our Experts
+</Link>
+
         <div>
 
         </div>
