@@ -65,7 +65,7 @@ const Home = () => {
 {/* <Hero /> */}
    <div className="h-auto w-full flex-wrap  flex items-center justify-around " style = {{boxShadow: '0 0 40px rgba(8,145,178,1)'}}>
     <div className='flex w-[600px] m-0 p-0' >
-      <FuturisticLogo text="NextStack Lab" />
+      <FuturisticLogo text="LORDS IT SERVICES PTIVATE LIMITED" />
 </div>
 <div className='text-white h-auto  w-[600px] sm:h-auto md:h-auto lg:h-[50vh] '>
   <h1 className='text-4xl font-bold py-6 rainbowText sm:text-xl text-center lg:text-left md:text-4xl lg:text-5xl'>ABOUT US</h1>
@@ -74,7 +74,7 @@ const Home = () => {
   <p className='text-xl py-6 text-center lg:text-left'>We’re a team of passionate MERN-Stack Developers turning ideas into sleek, scalable digital experiences. At LORDS IT SERVICES, innovation meets precision — one line of code at a time.</p>
   <Link
   to='/about-us'
-  className='flex justify-center items-start gap-2 w-[250px] sm:w-[300px] md:w-[15vw] lg:w-[18vw] h-20 py-2 text-2xl rounded-2xl my-7 neonButton mx-auto'
+  className='fle items-start gapx-2 w-[250px] sm:w-[300px] md:w-[15vw] lg:w-[18vw] h-20 py-1 text-2xl rounded-2xl my-7 neonButton mx-auto'
 >
   Discover us <IoMdArrowRoundForward />
 </Link>
