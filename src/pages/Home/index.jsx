@@ -74,7 +74,7 @@ const Home = () => {
   <p className='text-xl py-6 text-center lg:text-left'>We’re a team of passionate MERN-Stack Developers turning ideas into sleek, scalable digital experiences. At LORDS IT SERVICES, innovation meets precision — one line of code at a time.</p>
   <Link
   to='/about-us'
-  className='fle items-start gapx-2 w-[250px] sm:w-[300px] md:w-[15vw] lg:w-[18vw] h-20 py-1 text-2xl rounded-2xl my-7 neonButton mx-auto'
+  className='flex items-start gap-2 w-[250px] sm:w-[300px] md:w-[15vw] lg:w-[18vw] h-20 py-1 text-2xl rounded-2xl my-7 neonButton mx-auto'
 >
   Discover us <IoMdArrowRoundForward />
 </Link>
